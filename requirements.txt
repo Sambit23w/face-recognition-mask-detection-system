@@ -1,0 +1,11 @@
+opencv-python
+numpy
+face_recognition
+tensorflow
+keras
+mysql-connector-python
+imutils
+pickle-mixin
+flask
+pandas
+pyttsx3

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Users</title>
+
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+rel="stylesheet"
+>
+
+</head>
+
+<body class="bg-dark text-light">
+
+<div class="container mt-5">
+
+<h1>
+Registered Users
+</h1>
+
+<table class="table table-dark table-bordered">
+
+<tr>
+
+<th>ID</th>
+<th>Name</th>
+<th>Image Path</th>
+
+</tr>
+
+{% for user in users %}
+
+<tr>
+
+<td>{{ user.id }}</td>
+<td>{{ user.name }}</td>
+<td>{{ user.image_path }}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+</div>
+
+</body>
+
+</html>
